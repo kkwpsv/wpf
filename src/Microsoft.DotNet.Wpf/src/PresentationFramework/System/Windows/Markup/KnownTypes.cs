@@ -2796,9 +2796,6 @@ namespace System.Windows.Markup
                 case KnownElements.XmlDataProvider:
                     name = "XmlSerializer";
                     break;
-                case KnownElements.Setter:
-                   name = "Value";
-                   break;
             }
             return name;
         }
